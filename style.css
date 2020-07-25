@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    background-image: url("130369.jpg");
+    background-size: cover;
+  
+}
+  
+.app{
+  text-align: justify; 
+  margin: auto;
+  margin-bottom:  50px;
+  padding: 30px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.input{
+  text-align: center;
+  
+}
+.inputBar{
+
+  width: 320px;
+  height: 50px;
+  background-color: rgb(49, 46, 46);
+  /* box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19); */
+
+  border: none;
+  color: white;
+  padding: 8px;
+  font-family: 'Nanum Brush Script', cursive;
+}
+.inputBar:focus{
+
+  width: 320px;
+  height: 50px;
+  background-color: rgb(51, 50, 50);
+  border: none;
+  color: white;
+  padding: 8px;
+  
+}
+.inputBar:hover{
+
+  width: 320px;
+  height: 50px;
+  background-color: rgb(63, 56, 56);
+  border: none;
+  color: white;
+  padding: 8px;
+  
+}
+.inputButton{
+  border: none;
+  width: 120px;
+  height: 35px ;
+  
+}
+.inputButton:hover{
+  border: none;
+  width: 120px;
+  height: 35px ;
+  outline: none;
+  background-color: rgb(228, 197, 228);
+  
+}
+.inputButton:focus{
+  outline: none;
+
+}
+
+
+.li{
+  margin-top: 10px;
+  background-color: rgb(226, 199, 226);
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(61, 59, 59, 0.1);
+  font-family: 'Jura', sans-serif;
+
+}
+
+.btn{
+
+  background-color: rgb(212, 182, 212) !important;
+  margin: 8px;
+  outline: none;
+}
+
+.btn:hover{
+
+  background-color: rgb(206, 168, 206) !important;
+  margin: 4px;
+  outline: none;
+}
